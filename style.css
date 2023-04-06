@@ -131,7 +131,9 @@ background-color: #fff;
         align-items: center;
         margin-bottom: 9px;
     }
-
+    .btn1:hover{
+        background-color: #002819;
+    }
     .btn1{
         font-size: 13px;
         font-weight: 550;
@@ -144,6 +146,7 @@ background-color: #fff;
         height: 52px;
         width: 260px;
         margin-right: 4px;
+        cursor: pointer;
     }
     .btn2{
 
@@ -159,6 +162,7 @@ background-color: #fff;
         padding-right: 14px;
         margin-top: 15px;
         padding-top: 0px;
+        cursor: pointer;
     }
 
     .img{
@@ -187,6 +191,7 @@ background-color: #fff;
         font-size: 16px;
         letter-spacing: 1.5px;
         border: none;
+        cursor: pointer;
     }
     .img1-text2{
         position: absolute;
@@ -236,6 +241,7 @@ background-color: #fff;
         color: #003220;
         letter-spacing: 1.5px;
         vertical-align: middle;
+        cursor: pointer;
     }
     .locate_dealer img{
         background-color: #d9e0de;
@@ -243,6 +249,7 @@ background-color: #fff;
       width: 32px;  
       margin-top: 35px;
       margin-bottom: 16px;
+        cursor: pointer;
     }
     .configurator{
         height: 100%;
@@ -255,6 +262,7 @@ background-color: #fff;
         color: #003220;
         letter-spacing: 1.5px;
         vertical-align: middle;
+        cursor: pointer;
     }
     .configurator img{
         background-color: #d9e0de;
@@ -262,6 +270,7 @@ background-color: #fff;
         width: 32px;  
         margin-top: 35px;
         margin-bottom: 16px;
+        cursor: pointer;
     }
     .brochure{
         height: 100%;
@@ -274,6 +283,7 @@ background-color: #fff;
         color: #003220;
         letter-spacing: 1.5px;
         vertical-align: middle;
+        cursor: pointer;
     }
     .brochure img{
         background-color: #d9e0de;
@@ -281,6 +291,7 @@ background-color: #fff;
         width: 32px;  
         margin-top: 35px;
         margin-bottom: 16px;
+        cursor: pointer;
     }
 
     .model{
@@ -321,6 +332,7 @@ background-color: #fff;
         margin-left: 30px;
         margin-top: 43px;
         padding-left: 10px;
+        cursor: pointer;
     }
     .own{
         font-size: 14.5px;
@@ -332,6 +344,7 @@ background-color: #fff;
         width: 270px;
         margin-left: 30px;
         margin-top: 43px;
+        cursor: pointer;
     }
     .about{
         font-size: 14.5px;
@@ -343,6 +356,7 @@ background-color: #fff;
         width: 270px;
         margin-left: 30px;
         margin-top: 43px;
+        cursor: pointer;
     }
     .social_icon{
         display: inline-block;
@@ -357,6 +371,7 @@ background-color: #fff;
         height: 32px;
         width: 32px;
         margin-right: 32px;
+        cursor: pointer;
     }
     .footer{
         width: 100%;
