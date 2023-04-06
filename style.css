@@ -1,0 +1,387 @@
+/*  @font-face {
+    font-family: BentleyLight;
+    src: url(Font/Bentley\ Light.woff); 
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+background-color: #fff;
+}
+#nav__links{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: 3px;
+    margin-left: 380px;
+    margin-right: 53px;
+    vertical-align: middle;
+    font-family: Montserrat;
+    line-height: 24px;
+    list-style-type: none;
+    overflow: hidden;
+    }
+    .link{
+        font-size: 12.7px;
+        font-weight: bolder;
+        letter-spacing: 0.2px;
+        padding-left: 15px;
+        text-decoration: none;
+        color: #141414;
+    }
+    a:link{
+        text-decoration: none;
+    }
+
+    .navbar{
+        display: flex;
+        width: 100%;
+        height: 101px;
+        align-items: center;
+        background-color: #ffffff;
+        border-bottom: 1px solid #94c11d;        
+    }
+    .cta:hover{
+        background-color: #002819;
+    }
+    .cta{
+        
+        border: none;
+        background-color: #335b4c;
+        font-size: 13px;
+        font-style: normal;
+        font-family: Raleway;
+        font-weight: 600;
+        letter-spacing: 2PX;
+        color: #fff;
+        height: 39px;
+        width: 224px;
+        cursor: pointer;
+    }
+    .logo{
+        width: 124px;
+        height: 88px;
+        margin-left: 35px;
+        padding-top: 25px;
+    }
+    .logo_sm{
+        cursor: pointer;
+        width: 84px;
+        height: 42px;
+    }
+    .menu_opener{
+        display: flex;
+        font-size: 13px;
+        font-weight: 600;
+        padding-left: 17px;
+        padding-bottom: 4px;
+        text-decoration: none;
+        color: #5b5b5b;
+    }
+    .menu_icon{
+        width: 27px;
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    .menu_tag{
+        font-family: Montserrat;
+        padding-top: 2px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+  
+    .slide_img{
+        overflow: hidden;
+        width: 100%;  
+    }
+    .info{
+        
+        margin-top: 30px;
+        width: 100%;
+        height: 198px;
+    }
+    .head{
+        font-family: Rubik;
+        font-size: 21px;
+        font-weight: 700;
+        color: #727376;
+        letter-spacing: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -2px;
+        margin-bottom: 18px;
+    }
+    .head_4{
+        font-family: Rubik;
+        font-weight: 200;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+        color: #727376;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+
+    .btn1{
+        font-size: 13px;
+        font-weight: 550;
+        letter-spacing: 1.5px;
+        color: #fff;
+        background-color: #335b4c;
+        border: none;
+        position: relative;
+        left: 364px;
+        height: 52px;
+        width: 260px;
+        margin-right: 4px;
+    }
+    .btn2{
+
+        font-size: 13px;
+        font-weight: 530px;
+        letter-spacing: 2px;
+        color: #335b4c;
+        border-color: #335b4c;
+        position: relative;
+        left: 368px;
+        height: 52px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-top: 15px;
+        padding-top: 0px;
+    }
+
+    .img{
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .img-1{
+        position: relative;
+        display: flex;
+    }
+    .img-1 img{
+        height: auto;
+        width: 632px;
+    }
+    .img1-text1{
+        position: absolute;
+        top: 0px;
+        padding: 10px;
+        padding-right: 14px;
+        padding-left: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        
+    }
+    .btn3{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        border: none;
+    }
+    .img1-text2{
+        position: absolute;
+        top: 0px;
+        padding: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+    .list{
+        display: flex;
+        width: 100%;
+        height: 140px;
+    }
+    .list,.ba,.newsletter,.locate_dealer,.configurator,.brochure{
+        background-color: #d9e0de;
+    }
+    .newsletter {
+        height: 100%;
+        width: 283px;
+        border: 1.5px solid #d8d9dc;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 1000;
+        color: #003220;
+        letter-spacing: 1.5px;
+        vertical-align: middle;
+         }
+    .newsletter img{
+        background-color: #d9e0de;
+      height: 32px;
+      width: 32px;  
+      margin-top: 35px;
+      margin-bottom: 16px;
+    }
+    .locate_dealer{
+        height: 100%;
+        width: 283px;
+        border: 1.5px solid #d8d9dc;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 1000;
+        color: #003220;
+        letter-spacing: 1.5px;
+        vertical-align: middle;
+    }
+    .locate_dealer img{
+        background-color: #d9e0de;
+        height: 32px;
+      width: 32px;  
+      margin-top: 35px;
+      margin-bottom: 16px;
+    }
+    .configurator{
+        height: 100%;
+        width: 283px;
+        border: 1.5px solid #d8d9dc;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 1000;
+        color: #003220;
+        letter-spacing: 1.5px;
+        vertical-align: middle;
+    }
+    .configurator img{
+        background-color: #d9e0de;
+        height: 32px;
+        width: 32px;  
+        margin-top: 35px;
+        margin-bottom: 16px;
+    }
+    .brochure{
+        height: 100%;
+        width: 427px;
+        border: 1.5px solid #d8d9dc;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 1000;
+        color: #003220;
+        letter-spacing: 1.5px;
+        vertical-align: middle;
+    }
+    .brochure img{
+        background-color: #d9e0de;
+        height: 30px;
+        width: 32px;  
+        margin-top: 35px;
+        margin-bottom: 16px;
+    }
+
+    .model{
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+    .models{
+        font-size: 14.5px;
+        font-weight: 100;
+        color: #335b4c;
+        font-family: Raleway;
+        letter-spacing: 1.5px;
+        height: 230px;
+        width: 230px;
+        margin-left: 30px;
+        margin-top: 43px;
+        margin-right: 21px;
+       
+    }
+    p{
+        margin-bottom: 9px;
+        cursor: pointer;
+    }
+    .title{
+        color: #727376;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+    .world{
+        font-size: 14.5px;
+        font-weight: 100;
+        color: #335b4c;
+        font-family: Raleway;
+        letter-spacing: 1.5px;
+        height: 230px;
+        width: 270px;
+        margin-left: 30px;
+        margin-top: 43px;
+        padding-left: 10px;
+    }
+    .own{
+        font-size: 14.5px;
+        font-weight: 100;
+        color: #335b4c;
+        font-family: Raleway;
+        letter-spacing: 1.5px;
+        height: 230px;
+        width: 270px;
+        margin-left: 30px;
+        margin-top: 43px;
+    }
+    .about{
+        font-size: 14.5px;
+        font-weight: 100;
+        color: #335b4c;
+        font-family: Raleway;
+        letter-spacing: 1.5px;
+        height: 230px;
+        width: 270px;
+        margin-left: 30px;
+        margin-top: 43px;
+    }
+    .social_icon{
+        display: inline-block;
+        flex-direction: column;
+        height: 70px;
+        width: 1200px;
+        margin-left: 31px;
+        border-bottom:0.2px solid #8f9094;
+        margin-bottom: 40px;
+    }
+    .s-icon{
+        height: 32px;
+        width: 32px;
+        margin-right: 32px;
+    }
+    .footer{
+        width: 100%;
+        height: 150px;
+        margin-left: 30px;
+        font-family: Raleway;
+        color: #727376;
+        font-size: 14px;
+    }
+    .us{
+        display: block;
+        height: 50px;
+        width: 1000px;
+        font-family: Raleway;
+    }
+    .us p{
+        font-size: 15px;
+        color: #727376;
+        font-weight: 100px;
+        letter-spacing: 1px;
+        display: inline;
+        margin-right: 50px;
+    }
+    .end{
+        margin-top: 20px;
+        text-decoration: underline;
+        padding-bottom: 20px;
+    }
